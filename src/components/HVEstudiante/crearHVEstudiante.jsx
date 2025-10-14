@@ -80,18 +80,7 @@ export default function CrearHVEstudiante() {
                             </form>
                         </div>
                     </div>
-                    {/* <!-- Bootstrap core JavaScript--> */}
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="js/sb-admin-2.min.js"></script>
-    
-    {/* <!-- Componentes --> */}
-    <script src="js/components/sidebar.js"></script>
-    <script src="js/components/topbar.js"></script>
-    
-    {/* <!-- Script específico del módulo --> */}
-    <script src="js/modulos/crear-historial.js"></script>
+   
     </div>
     </>
   )
