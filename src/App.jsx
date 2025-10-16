@@ -1,3 +1,13 @@
+import Sidebar from './components/sidebar'
+import Topbar from './components/Topbar'
+import CrearHVEstudiante from './components/crearHVEstudiante'
+import CrearListadoHistorial from './components/CreatListadoHistorial'
+import Paginacion from './components/Paginacion'
+import Footer from './components/Footer'
+import LogoutModal from './components/LogoutModal'
+import ModalHvEstudiantil from './components/ModalHvEstudiantil'
+//import './App.css'
+
 import CrearHVEstudiante from './components/HVEstudiante/crearHVEstudiante'
 import Sidebar from './components/HVEstudiante/Sidebar'
 import Topbar from './components/HVEstudiante/Topbar'
@@ -11,6 +21,25 @@ function App() {
   // 💡 Mantenemos el estado de autenticación (falso por defecto)
   const [isLoggedIn, setIsLoggedIn] = useState(false); 
 
+  return (
+    <>
+      <div id="wrapper">
+        <Sidebar/>
+        <div id="content-wrapper" class="d-flex flex-column">
+          <div id="topbar-wrapper">
+            <Topbar/>
+          </div>
+          <div className="container-fluid">
+            <CrearListadoHistorial/>
+            <Paginacion/>
+            <Footer/>
+            <LogoutModal/>
+            <ModalHvEstudiantil/>
+          </div>
+        </div >
+      </div>
+      </>
+  )
   // Componente que contiene el diseño (Layout) principal
   const MainLayout = () => (
     <div id='wrapper'> 
