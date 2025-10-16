@@ -52,7 +52,7 @@ export default function sidebar() {
         <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseHistorial"
             aria-expanded="true" aria-controls="collapseHistorial">
             <i className="fas fa-fw fa-history"></i>
-            <span>Hy estudiantil</span>
+            <span>Hv estudiantil</span>
         </a>
         <div id="collapseHistorial" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div className="bg-white py-2 collapse-inner rounded">
